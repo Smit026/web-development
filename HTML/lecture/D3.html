@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>PERSONAL FORM</h1>
+    <form action="https://www.w3schools.com" method="post">
+        <fieldset>
+        <table>
+       <tr id="Firstname">
+        <td>
+            <label for="Firstname">Firstname : </label>
+        </td>
+        <td>
+            <input type="text"name="Firstname" placeholder="Firstname" value="Smit" readonly>
+        </td>
+       </tr> 
+       <tr id="Lastname">
+        <td>
+            <label for="Lastname">Lastname : </label>
+        </td>
+        <td>
+            <input type="text"name="Lastname" placeholder="Lastname" required>
+        </td>
+       </tr> 
+       <tr id="password">
+        <td>
+            <label for="password">Password : </label>
+        </td>
+        <td>
+            <input type="password"name="password" placeholder="password" maxlength="6" pattern="[0-9]{6}">
+        </td>
+       </tr> 
+       <tr id="Address">
+        <td>
+            <label for="Address">Address : </label>
+        </td>
+        <td>
+            <textarea name="Address" id="" cols="20" rows="5" ></textarea>
+        </td>
+       </tr> 
+       <tr id="city">
+        <td>
+            <label for="city">city : </label>
+        </td>
+        <td>
+       <select name="city">
+        <option></option>
+        <option value="ahmedabad">ahmedabad</option>
+        <option value="rajkot">rajkot</option>
+        <option value="surat">surat</option>
+       </select>
+        </td>
+       </tr> 
+       <tr id="state">
+        <td>
+            <label for="state">state : </label>
+        </td>
+        <td>
+            <input type="radio" name="state" value="gujarat">
+            <label>gujarat</label>
+            <input type="radio" name="state" value="rajasthan">
+            <label>rajasthan</label>
+            <input type="radio" name="state" value="assam">
+            <label>assam</label>
+        </td>
+       </tr> 
+       <tr id="hobbies">
+        <td>
+            <label for="hobbies">hobbies: </label>
+        </td>
+        <td>
+            <input type="checkbox" name="car" value="car">
+            <label>car</label>
+            <input type="checkbox" name="cycling" value="cycling">
+            <label>rajasthan</label>
+            <input type="checkbox" name="reading" value="reading">
+            <label>reading</label>
+        </td>
+       </tr> 
+       <tr  id="colors">
+        <td>
+            <label for="favcolor">Select your favorite color:</label>
+            
+        </td>
+        <td>
+            <input type="color" id="favcolor" name="favcolor">
+        </td>
+       </tr>
+        <tr id="birthday">
+            <td>
+                <label for="birthday">Birthday date : </label>
+
+            </td>
+            <td>
+                <input type="date" name="birthday" min="2000-01-01" max="2020-12-31"></input>
+            </td>
+        </tr>
+        <tr id="birthtime">
+            <td>
+                <label for="birthtime">birthtime :</label>
+            </td>
+            <td>
+                <input type="datetime-local" name="birthtime"></input>
+            </td>
+        </tr>
+        <tr id="email">
+            <td>
+                <label for="email">email : </label>
+            </td>
+            <td>
+                <input type="email" name="email" placeholder="enter mail" required></input>
+            </td>
+
+           </tr> 
+        <tr id="file">
+            <td>
+                <label for="file">file : </label>
+            </td>
+            <td>
+                <input type="file" name="file" multiple></input>
+            </td>
+        </tr> 
+        <tr id="month">
+            <td>
+                <label for="month">applied month : </label>
+            </td>
+            <td>
+                <input type="month" name="month"></input>
+            </td>
+
+        </tr> 
+        <tr id="interest">
+            <td>
+                <label for="interest">interest : </label>
+            </td>
+            <td>
+                <input type="range" name="interest" min="0" max="50">
+            </td>
+
+        </tr> 
+        <tr id="phoneno">
+            <td>
+                <label for="phoneno">phoneno : </label>
+            </td>
+            <td>
+                <input type="tel" name="phoneno" maxlength="10">
+            </td>
+
+        </tr> 
+        <tr id="time">
+            <td>
+                <label for="time">application time : </label>
+            </td>
+            <td>
+                <input type="time" name="time">
+            </td>
+
+        </tr> 
+        <tr id="reference">
+            <td>
+                <label for="reference">reference url : </label>
+            </td>
+            <td>
+                <input type="url" name="reference">
+            </td>
+
+        </tr> 
+        <tr id="week">
+            <td>
+                <label for="week">prefer week : </label>
+            </td>
+            <td>
+                <input type="week" name="week">
+            </td>
+
+        </tr> 
+        <tr id="logo">
+            <td>
+                <input type="image" src="C:\Users\Kartik Patel\Desktop\webdev\HTML\w3.jpg" alt="website" width="200" height="100">
+            </td>
+            <td>
+               <input type="reset" name="reset">
+            </td>
+
+        </tr> 
+           
+          <tr>
+            <td colspan="2">
+                    <input type="submit" name="submit" value="submit"></input>
+            </td>
+          </tr>       
+           
+       </table>
+
+       </fieldset>
+    </form>
+    
+</body>
+</html>

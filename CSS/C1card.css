@@ -1,0 +1,38 @@
+
+#div{
+    margin-top: 50px;
+    background-color:aqua;
+    width:355px;
+    height: 320px;
+    position: relative;
+    box-shadow: 1.5px 1.5px 1.5px black;
+}
+#div1{
+    padding: 15px;
+    
+}
+#div2{
+    font-size: large;
+}
+#price{
+    display: inline;
+    margin-right: 5px;
+    color: blueviolet;
+}
+#del{
+    display: inline;
+    margin-right: 5px;
+    
+}
+hr{
+    width: 70%;
+    opacity: 50%;
+    float: left;
+}
+#dis{
+    display: inline;
+    border-radius: 15px;
+    padding: 4px;
+    color: white;
+    background-color:green;
+}

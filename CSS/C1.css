@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    margin:25px;
+   
+}
+header{
+    margin: 5px;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+header h1{
+    padding: 15px;
+    font-size: 20;
+    font-weight: 600;
+    
+}
+#nav1,footer{
+    background-color: rgb(245, 191, 250);
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+}
+#nav1 a{
+    font-weight: 300;
+    font-size: 15;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+}
+#nav a:hover{
+    color: white;
+}
+.div1{
+    background-color: rgb(247, 218, 164);
+}
+.intro #intr{
+    padding-top: 15px;
+}
+.intro #p2,#p1{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.see #see1{
+    text-align: center;
+}
